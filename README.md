@@ -49,7 +49,7 @@ STEP 9:For ‘N ‘ iterations ,do the following:<BR>
 STEP 10:Plot the error for each iteration <BR>
 STEP 11:Print the accuracy<BR>
 # PROGRAM:
-    ```
+ ```
     import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -97,7 +97,7 @@ print(df.head())
 y = df.iloc[:, 4].values
 x = df.iloc[:, 0:3].values
 ```
-`1`
+```
 fig = plt.figure()
 ax = plt.axes(projection='3d')
 ax.set_title('Iris data set')
